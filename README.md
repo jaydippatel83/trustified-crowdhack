@@ -11,7 +11,7 @@
 
 Availability: All the data will be stored on decentralized storage of the Filecoin network.
 
-Forgery Proof: Each certificate and badge will be an NFT on the FVM blockchain.
+Forgery Proof: Each certificate and badge will be an NFT on the Apothem and IOTEX blockchain.
 
 Ownership: Ensures true ownership of digital badges and certificates.
 
