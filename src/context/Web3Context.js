@@ -171,15 +171,15 @@ export const Web3ContextProvider = (props) => {
           params: [
             selectedChain.chainId === chainId
               ? {
-                  chainId: selectedChain.chainId,
-                  chainName: selectedChain.chainName,
-                  nativeCurrency: {
-                    name: selectedChain.chainName,
-                    symbol: selectedChain.symbol,
-                    decimals: selectedChain.decimals,
-                  },
-                  rpcUrls: [selectedChain.rpcUrl],
-                }
+                chainId: selectedChain.chainId,
+                chainName: selectedChain.chainName,
+                nativeCurrency: {
+                  name: selectedChain.chainName,
+                  symbol: selectedChain.symbol,
+                  decimals: selectedChain.decimals,
+                },
+                rpcUrls: [selectedChain.rpcUrl],
+              }
               : { chainId: `${chainId}` },
           ],
         });
@@ -339,14 +339,18 @@ export const Web3ContextProvider = (props) => {
       try {
         const provider = new ethers.providers.Web3Provider(window.ethereum);
         const signer = provider.getSigner();
-
+        console.log(firebasedata.chain, "firebasedata.chain");
+        
         const trustifiedIssuerNFTContract = new ethers.Contract(
           trustifiedContracts[firebasedata.chain].trustifiedIssuernft,
           trustifiedIssuerAbi.abi,
           signer
         );
 
+        console.log(trustifiedIssuerNFTContract,"trustifiedIssuerNFTContract");
+
         const balance = await trustifiedIssuerNFTContract.balanceOf(address);
+        console.log(balance,"balance");
 
         if (Number(balance) > 0) {
           const trustifiedContract = new ethers.Contract(
@@ -825,10 +829,9 @@ export const Web3ContextProvider = (props) => {
 
       const imageFile = new File(
         [pdfBlob.imageData],
-        `${
-          claimer?.claimer == undefined
-            ? claimer.title.replace(/ +/g, "")
-            : claimer?.claimer.replace(/ +/g, "")
+        `${claimer?.claimer == undefined
+          ? claimer.title.replace(/ +/g, "")
+          : claimer?.claimer.replace(/ +/g, "")
         }.png`,
         {
           type: "image/png",
@@ -857,7 +860,7 @@ export const Web3ContextProvider = (props) => {
         const trustifiedContract = new ethers.Contract(
           fire.data().tokenContract,
           trustifiedContracts[fire.data().chain].trustified ==
-          fire.data().tokenContract
+            fire.data().tokenContract
             ? trustifiedContractAbi.abi
             : trustifiedV1Abi.abi,
           signer
@@ -935,7 +938,7 @@ export const Web3ContextProvider = (props) => {
         const trustifiedContract = new ethers.Contract(
           fire.data().tokenContract,
           trustifiedContracts[fire.data().chain].trustified ==
-          fire.data().tokenContract
+            fire.data().tokenContract
             ? trustifiedContractAbi.abi
             : trustifiedV1Abi.abi,
           signer
@@ -1055,7 +1058,9 @@ export const Web3ContextProvider = (props) => {
       trustifiedIssuerAbi.abi,
       signer
     );
+    console.log(trustifiedIssuerContract, "trustifiedIssuerContract");
     let isallowed = await trustifiedIssuerContract.isAllowed();
+    console.log(isallowed, "isallowed");
     return isallowed;
   };
 

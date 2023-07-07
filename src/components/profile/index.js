@@ -64,6 +64,22 @@ function User() {
 
  
   const [state, setState] = React.useState({
+    apothem: {
+      label: "Apothem",
+      value: "apothem",
+      image: "/assets/logo/xdc.png",
+      chainId: 51,
+      priority: 1,
+      checked: false,
+    },
+    iotex: {
+      label: "Iotex (Testnet)",
+      value: "iotex",
+      image: "/assets/logo/iotex.png",
+      chainId: 4690,
+      priority: 1,
+      checked: false,
+    },
     patextestnet: {
       label: "Patex (Testnet)",
       value: "patextestnet",
@@ -200,8 +216,7 @@ function User() {
   }
 
   const updateProfile = async () => {
-    const add = window.localStorage.getItem("address");
-
+    const add = window.localStorage.getItem("address"); 
     const data = {
       Name: profileData.name,
       Bio: profileData.bio,

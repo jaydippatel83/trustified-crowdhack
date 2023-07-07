@@ -44,11 +44,11 @@ export const trustifiedContracts = {
   },
   apothem:{
     trustified: "0x7ef9dC2a27C9e4F491037161d1e9e29b8cCa2D5A",
-    trustifiedIssuernft: "0x04e27C7baDa718C270EF517A6cAFD4746AD537B6",
+    trustifiedIssuernft: "0x04e27C7baDa718C270EF517A6cAFD4746AD537B6", 
   },
   iotex:{
     trustified: "0xDBe22783CA9eb10e215Cc67A0Fc3cB63392a40f6",
-    trustifiedIssuernft: "0x0eB2B8E596fe8562967c47824acB71E3a6dA76F4",
+    trustifiedIssuernft: "0x0eB2B8E596fe8562967c47824acB71E3a6dA76F4", 
   }
 
   // bsc: {

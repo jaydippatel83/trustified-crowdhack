@@ -1,8 +1,7 @@
 {
-  "name": "trustified_patex",
+  "name": "trustified",
   "version": "0.1.0",
-  "private": true,
-  "proxy": "https://bg26hulzpl.execute-api.ap-south-1.amazonaws.com/v1/trustified/api",
+  "private": true, 
   "dependencies": {
     "@biconomy/smart-account": "^2.0.2",
     "@creds-protocol/contracts": "^0.1.9",

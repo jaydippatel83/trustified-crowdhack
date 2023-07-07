@@ -30,6 +30,8 @@ export default function Claim() {
   const { token } = useParams();
   const [add, setAddress] = useState("");
 
+  console.log(claimer,"claimer");
+
   useEffect(() => {
     getClaimer(token);
     getUrl();
@@ -38,6 +40,7 @@ export default function Claim() {
 
   const getUrl = (chain) => {
     const url = networkURL[chain];
+    console.log(url,"url");
     return url;
   };
 
@@ -70,7 +73,13 @@ export default function Claim() {
       net = "arbitrumtestnet";
     } else if (network === "ethereumtestnet") {
       net = "ethereumtestnet";
-    } else {
+    } else if (network === "apothem") {
+      net = "apothem";
+    } 
+    else if (network === "iotex") {
+      net = "iotex";
+    }
+     else {
       net = "bsc";
     }
     return net;
