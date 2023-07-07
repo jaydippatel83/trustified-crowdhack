@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+## Trustified
+![MicrosoftTeams-image (21)](https://user-images.githubusercontent.com/45895007/216990763-90a45a6f-7ce6-466f-b131-0806dc581f5c.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Trustified is a platform to issue forgery-proof digital certificates and badges on Blockchain.**
 
-## Available Scripts
+# Why Trustified?
 
-In the project directory, you can run:
+**The traditional way of issuing Physical and Digital Certificates consists of the risk of permanent availability and document forgery issues.**
 
-### `npm start`
+**Trustified provides**:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Availability: All the data will be stored on decentralized storage of the Filecoin network.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Forgery Proof: Each certificate and badge will be an NFT on the FVM blockchain.
 
-### `npm test`
+Ownership: Ensures true ownership of digital badges and certificates.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Apothem contract transaction 
+ => [https://explorer.apothem.network/tx/0x927ef28a9b1e989122cdba447166c0b4240cb1baa9a6dcbe95aa55cf1a6fbca2]
 
-### `npm run build`
+ # IOTEX contract transaction 
+ => [https://testnet.iotexscan.io/tx/0xcf3da014df7a2802b09797cf15a9a0b9ad7a7121fd7e82560035b46008bb47d9)]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Built for
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Individuals**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+==> Any individual from course creator to an influencer can issue NFT Certificates and badges to community members.
 
-### `npm run eject`
+**Organisations** 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+==> Educational institutes and companies can issue degree certificates and performance reward badges to the members.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**DAOs**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+==> DAOs can issue role-based membership badges/certificates to performance-based reputation certificates.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Developers**
 
-## Learn More
+==> Customised token gated access opens up a wide range of possibilities for developers to build on top of Trustified
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Issue cool Badges
+**NFT badges are the best way to create a lifelong memory and can also be issued for various purposes like NFT event tickets, token-gated community access, and as performance-based rewards to community members.** 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+# Landing Page
+<img width="1280" alt="trustified" src="https://github.com/jaydippatel83/trustified-patex/assets/45895007/dd64e271-d993-4014-b0bf-e4d02ef47419">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ <img width="1280" alt="Screenshot 2023-07-06 at 5 41 22 PM" src="https://github.com/jaydippatel83/trustified-patex/assets/45895007/f40dc40e-66c9-4489-b694-ea8bd92d74bf">
 
-### Analyzing the Bundle Size
+# Certificate 
+<img width="1280" alt="Screenshot 2023-07-07 at 4 24 09 PM" src="https://github.com/jaydippatel83/trustified-crowdhack/assets/45895007/03cc32a6-17b1-4339-9652-2942a592b848"> 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+ <img width="1280" alt="Screenshot 2023-07-07 at 4 23 56 PM" src="https://github.com/jaydippatel83/trustified-crowdhack/assets/45895007/49a73d05-70d3-4554-ba5c-693e27021cc6">
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Create Badge 
+ <img width="1280" alt="Screenshot 2023-07-07 at 4 24 46 PM" src="https://github.com/jaydippatel83/trustified-crowdhack/assets/45895007/978968d9-5bf8-41fb-8c9a-e897a97f19e0">
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# NFT Lists 
+  <img width="1280" alt="Screenshot 2023-07-07 at 4 24 17 PM" src="https://github.com/jaydippatel83/trustified-crowdhack/assets/45895007/fb84a1bd-b4c9-4703-97b9-a0fb5b4ff7ef">
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+# Collector List  
 
-### `npm run build` fails to minify
+<img width="1280" alt="Screenshot 2023-07-06 at 5 43 34 PM" src="https://github.com/jaydippatel83/trustified-patex/assets/45895007/d2d43028-17a7-41d8-a2fc-844c3678afb9">
+ 
+# Claim page
+ 
+<img width="1280" alt="Screenshot 2023-07-07 at 4 26 12 PM" src="https://github.com/jaydippatel83/trustified-crowdhack/assets/45895007/483f8838-5ee1-4819-aa8a-b296c11ce9bf">
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Browse badges and certificates  
+ 
+<img width="1280" alt="Screenshot 2023-07-07 at 4 26 18 PM" src="https://github.com/jaydippatel83/trustified-crowdhack/assets/45895007/1836b88f-ddbe-4dfd-baac-760912bec7c0">
